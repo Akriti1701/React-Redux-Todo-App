@@ -1,0 +1,61 @@
+/* Define CSS styles for responsiveness */
+
+/* Container for the whole Todo component */
+.todo-container {
+  max-width: 400px; /* Adjust max-width as needed */
+  margin: auto;
+  padding: 20px;
+}
+
+/* Title styling */
+.todo-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Container for input and button */
+.todo-input-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+/* Input styling */
+.todo-input {
+  flex-grow: 1;
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+
+/* Button styling */
+.todo-button {
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Container for filter and search */
+.todo-filter-search-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Media query for laptop screens */
+@media (min-width: 768px) {
+  .todo-container {
+    max-width: 600px; /* Adjust max-width for larger screens */
+  }
+}
+
+/* Media query for tablet screens */
+@media (max-width: 768px) and (min-width: 576px) {
+  .todo-container {
+    padding: 10px; /* Adjust padding for tablet screens */
+  }
+}
